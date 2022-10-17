@@ -9,11 +9,14 @@
  * this program prints "Programming is positive, zero, or negative
  * Return: 0
  */
+
 int main(void)
 {
 	int n;
-	scanf( "%d", &n );
-if (n >0 ) {
+	scanf("%d", &n);
+
+	if (n > 0) 
+{
 	printf("%i is positive\n", n);
 }
 else if (n == 0)
