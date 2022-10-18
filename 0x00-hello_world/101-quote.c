@@ -1,18 +1,11 @@
-#include <stdio.h>
-#include <unisted.h>
+#include <unistd.h>
 /**
- * main - Entry poin
- * Return: Always 0 (Success)
+ * main-program entry point.
+ *
+ * Return: 1 on success.
  */
 int main(void)
 {
-	int size;
-	int standard_erro = 2;
-
-	size =
-		sizeof("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
-	write(standard_error,
-			"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
-			size);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
